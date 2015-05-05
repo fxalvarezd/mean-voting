@@ -165,6 +165,7 @@ app.controller('MainCtrl', ['$scope', 'posts', 'auth', function($scope, posts, a
 		posts.create({
 			title: $scope.title,
 			link: $scope.link,
+			author: 'user',
 		});
 
 		$scope.title = '';
